@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+  }
+  #timeDisplay{
+    text-align: center;
+    font-size:2.3em;
+
+  }
+  #shortBreak, #longBreak, #pomodoro, #reset{
+    text-align: center;
+    padding: 1em 1.5em;
+    color: #fff;
+    font-size: 1.15em;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 100vmax;
+
+  }
+  .buttons{
+    text-align: center;
+  }
+  #shortBreak, #longBreak, #pomodoro, #reset:hover{
+    cursor: pointer;
+  }
+  .container{
+    display: grid;
+    place-items: center
+  }
