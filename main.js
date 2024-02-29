@@ -24,6 +24,8 @@ function startTimer(minutes) {
 }
 
 function timesUp() {
+  let audio = new Audio("alarm.mp3")
+  audio.play()
  alert("Times Up")
 }
 

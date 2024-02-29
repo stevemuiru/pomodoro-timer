@@ -1,31 +1,52 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-body{
-    background-color: blueviolet;
-  }
-  #timeDisplay{
-    text-align: center;
-    font-size:2.3em;
 
-  }
-  #shortBreak, #longBreak, #pomodoro, #reset{
-    text-align: center;
-    padding: 1em 1.5em;
-    color: #fff;
-    font-size: 1.15em;
-    background-color: transparent;
-    border: 2px solid #fff;
-    border-radius: 100vmax;
+body {
+  background-color: #242582;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
 
-  }
-  .buttons{
-    text-align: center;
-  }
-  #shortBreak, #longBreak, #pomodoro, #reset:hover{
-    cursor: pointer;
-  }
-  .container{
-    display: grid;
-    place-items: center
-  }
+.container {
+  text-align: center;
+}
+
+#timeDisplay {
+  font-size: 4.3em;
+  color: #f64c72;
+  font-style: 'Georgia', serif;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+#shortBreak,
+#longBreak,
+#pomodoro,
+#reset {
+  padding: 1em 1.5em;
+  color: #fff;
+  font-size: 1.15em;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 100vmax;
+  cursor: pointer;
+}
+
+#shortBreak:hover,
+#longBreak:hover,
+#pomodoro:hover,
+#reset:hover {
+  background-color: #fff;
+  color: #242582;
+}
+
+.fa-rotate-right {
+  font-size: 1.5em;
+}
